@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:wght@400;900&family=League+Spartan:wght@100..900&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Karla', Arial, Helvetica, sans-serif, monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color:var(--lgrey) ;
+}
+:root{
+    --principal:hsl(179, 62%, 43%);
+    --yellow:hsl(71, 73%, 54%);
+    --lgrey:hsl(204, 43%, 93%);
+    --grey: hsl(218, 22%, 67%);
+}
+.container{
+    width: 325px;
+    padding-top: 30px;  
+    margin: 0 auto;
+    background-color:var(--lgrey);
+    text-align: left;
+    line-height: 1.7rem;
+}
+.header{
+    background: #fff;
+    width: 100%;
+    padding: 30px 15px 30px 15px;
+    border-radius: 15px 15px 0 0;
+
+}
+.header h2{
+    color: var(--principal);
+}
+.header h3{
+    color: var(--yellow);
+    padding: 15px 0 15px 0;
+}
+h4{
+    padding-bottom: 25px;
+}
+.header p {
+    color: var(--grey);
+  
+}
+.body{
+   color: var(--lgrey);
+  
+}
+.body__left{
+    background: var(--principal);
+    padding: 30px 15px 30px 15px;
+}
+.body__right{
+    background: #49BEBD;
+    border-radius: 0 0 15px 15px;
+    padding: 30px 15px 30px 15px;
+}
+.dollar{    
+    display: flex;    
+    
+}
+.month {
+   opacity: 0.7;
+    
+   
+}
+.dolar{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-right: 10px;
+   
+}
+button{
+    margin-top: 15px;
+    background: var(--yellow);
+    color: var(--lgrey);
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+}
+ul{
+list-style: none;
+}
