@@ -88,15 +88,24 @@ ul{
 list-style: none;
 }
  @media  (min-width:600px) {
-    .container{
+   
+     .container{
         max-width: 600px;
 
     }
+     /*SIN GRID*/
+    /*
     .details{
         display: flex;
     }
-    .details div{
+        .details div{
         width: 50%;
+    }
+    */
+    /*CON GRID*/
+    .details{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .subscription{
         border-radius: 0 0 0 15px;
@@ -107,5 +116,6 @@ list-style: none;
     }
     button{
         margin-top:2rem;
-    }
+    } 
+  
 } 
